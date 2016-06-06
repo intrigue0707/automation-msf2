@@ -22,7 +22,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @RunWith(SpringJUnit4ClassRunner.class)
 @WebAppConfiguration
 public class SampleTest {
-    private final String URL = "http://amers1.msf2-09.cp.icp2.mpp.ime.reuters.com/msf";
+    private final static String URL = "http://amers1.msf2-09.cp.icp2.mpp.ime.reuters.com/msf";
 
     private MockMvc mockMvc;
     private RestTemplate restTemplate;
